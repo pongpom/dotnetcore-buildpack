@@ -42,11 +42,6 @@ testDotNetCore31() {
   assertCapturedSuccess
 }
 
-testDotNetCore5() {
-  compile "dotnetcore-5.0"
-  assertCaptured "dotnetcore-5.0 ->"
-  assertCapturedSuccess
-}
 
 testLocalTools() {
   compile "local-tools"
